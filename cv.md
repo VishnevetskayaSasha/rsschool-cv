@@ -8,3 +8,32 @@
 
 ### About me:
 I am 26 years old, I live in Russia (Moscow). Right now I'm working as a junior web developer in a large company. It brings me great pleasure. I want to continue learning new things and conquer peaks.
+
+### Skills:
+- HTML5;
+- CSS3;
+  * Sass.
+- БЭМ;
+- JavaScript;
+- React;
+  * JSX;
+  * React Router.
+- Webpack;
+- Figma;
+- Github.
+
+### My experience: 
+- All my personal projects can be viewed in my [personal github card](https://github.com/VishnevetskayaSasha).
+- Now I work for [Erstevak](https://erstvak.com/). I create, maintain and optimize websites.
+
+### Education:
+Graduated from the [Russian Economic University. G.V. Plekhanov](https://new2.rea.ru/), Moscow
+* Economics of enterprises and organizations (bachelor's degree);
+* Process Management Specialist (Specialist).
+
+### Courses:
+* Web-developer in [yandex practicum](https://practicum.yandex.ru/web/)
+
+### Languages:
+* Russian - native;
+* English - B1 (in process of improvement)
