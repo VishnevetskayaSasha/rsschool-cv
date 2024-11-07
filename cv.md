@@ -22,6 +22,23 @@ I am 26 years old, I live in Russia (Moscow). Right now I'm working as a junior 
 - Figma;
 - Github.
 
+### Code Examples: 
+```javascript
+function sumTwoSmallestNumbers(numbers) {  
+  let min = numbers[0];
+  let secondMin = numbers[1];
+  for (let i = 1; i < numbers.length; i++) {
+    if (numbers[i] < min) {
+      secondMin = min;
+      min = numbers[i];
+    } else if (numbers[i] < secondMin) {
+      secondMin = numbers[i];
+    }
+  }
+  return min + secondMin;
+}
+```
+
 ### My experience: 
 - All my personal projects can be viewed in my [personal github card](https://github.com/VishnevetskayaSasha).
 - Now I work for [Erstevak](https://erstvak.com/). I create, maintain and optimize websites.
