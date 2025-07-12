@@ -1,3 +1,129 @@
-div {
-    color: green;
-  }
+html {
+  scroll-behavior: smooth;
+}
+.header, .footer {
+  background-color: rgb(239 235 235);
+}
+.header__content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.header__menu-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 30px 15px;
+}
+.header__menu-item {
+  list-style: none;
+}
+.header__menu-link{
+  color: black;
+  text-decoration: none;
+}
+.header__menu-link:hover{
+  color: #e3b0b9;
+  text-decoration: none;
+}
+main{
+  background-color: #e3b0b994;
+}
+.main__header{
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 34px;
+  text-align: center;
+  padding: 25px;
+}
+.main__content{
+  max-width: 900px;
+  margin: 0 auto;
+}
+.subtitle {
+  margin: 15px auto;
+  text-align: center;
+  width: 110px;
+  background: rgb(239 235 235);
+  border: 10px solid rgb(239 235 235);
+  box-shadow: 9px 9px 2px 1px rgb(177 87 39 / 20%);
+}
+.about-me__content {
+  display: flex;
+  justify-content: space-between;
+}
+.about-me__img {
+  max-width: 35%;
+  margin-right: 40px;
+  border-radius: 50%;
+  border: 16px solid rgb(239 235 235);;
+  box-shadow: 12px 12px 2px 1px rgb(177 87 39 / 20%);
+}
+.about-me__text {
+  margin: 120px 0;
+}
+.wrapper{
+  display: flex;
+  justify-content: center;
+}
+.left{
+  width: 35%;
+  align-items:center;
+  margin-right: 40px;
+}
+.contact {
+  padding: 35px 0 0px;
+}
+.contact__list{
+  list-style: none;
+  padding: 0;
+}
+.contact__text {
+  margin: 0;
+}
+.contact__text_span {
+  font-weight: bold;
+}
+.skills {
+  padding: 35px 0;
+}
+.skills__list {
+  
+}
+.skills__item {
+  margin: 5px 0;
+}
+.code{
+  padding: 35px 0;
+}
+.code pre{
+  background-color: rgb(239 235 235);
+}
+.code__text{
+  margin: 0 auto;
+}
+.link {
+  text-decoration: none;
+  color:rgb(185 0 80);
+}
+.education {
+  padding: 35px 0;
+}
+.projects, .courses {
+  padding-bottom: 10px;
+}
+
+
+.footer__content {
+  margin: 0 auto;
+  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__git, .footer__rs {
+  max-width: 60px;
+  width: 100%;
+}
+.footer__text {
+  margin: 0;
+}
